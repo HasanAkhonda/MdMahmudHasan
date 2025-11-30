@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-600 to-purple-600 rounded-2xl rotate-6 opacity-20"></div>
               <img 
-                src="/public/IMG_20230124_141252.jpg" 
+                src="https://picsum.photos/800/800?grayscale" 
                 alt="Md Mahmud Hasan Akhonda" 
                 className="relative rounded-2xl shadow-2xl w-full h-full object-cover border border-slate-800"
               />
