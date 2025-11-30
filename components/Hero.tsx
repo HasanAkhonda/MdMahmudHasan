@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
               <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
                 Hi, I'm <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-purple-400">
-                  Mahmud Hasan
+                  Md Mahmud Hasan Akhonda
                 </span>
               </h1>
               <p className="text-slate-400 text-lg md:text-xl max-w-lg leading-relaxed">
@@ -42,10 +42,10 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="flex items-center gap-6 pt-4">
-              <a href="#" className="text-slate-500 hover:text-brand-400 transition-colors">
+              <a href="https://github.com/HasanAkhonda" className="text-slate-500 hover:text-brand-400 transition-colors">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="#" className="text-slate-500 hover:text-brand-400 transition-colors">
+              <a href="https://www.linkedin.com/in/md-mahmud-hassan-151b23197/" className="text-slate-500 hover:text-brand-400 transition-colors">
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="mailto:mdmahmudhasanakhonda@gmail.com" className="text-slate-500 hover:text-brand-400 transition-colors">
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             <div className="relative w-full aspect-square max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-600 to-purple-600 rounded-2xl rotate-6 opacity-20"></div>
               <img 
-                src="https://picsum.photos/800/800?grayscale" 
+                src="/public/IMG_20230124_141252.jpg" 
                 alt="Md Mahmud Hasan Akhonda" 
                 className="relative rounded-2xl shadow-2xl w-full h-full object-cover border border-slate-800"
               />
